@@ -6,8 +6,8 @@ var path = require('path');
 
 module.exports = {
   context: path.join(__dirname, "src"),
-  devtool: "inline-sourcemap",
-  entry: "./main.jsx",
+  devtool: "#eval-sourcemap",
+  entry: "./main.js",
   module: {
     rules: [
       {
